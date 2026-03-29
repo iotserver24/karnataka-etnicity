@@ -14,7 +14,7 @@ export const QUESTIONS: Question[] = [
     teamName: 'Team 1: The Coastal Delicacy',
     clues: [
       'I am a thin, lace-like crepe made of rice and coconut milk.',
-      'My name literally translates to "Water Dosa" in the local tongue.',
+      'My name is based on a liquid',
       'I am a staple of the Tuluva community, often served with Chicken Curry.',
     ],
     dish: 'Neer Dosa',

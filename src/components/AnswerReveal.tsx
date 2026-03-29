@@ -48,7 +48,7 @@ export function AnswerReveal({
         }}
       >
         <motion.h2
-          className="font-display max-w-4xl text-5xl font-normal tracking-tight text-amber-50 sm:text-7xl md:text-8xl"
+          className="font-display max-w-4xl text-7xl font-normal tracking-tight text-amber-50 sm:text-8xl md:text-9xl"
           style={{
             textShadow:
               '0 0 60px rgba(251, 191, 36, 0.45), 0 0 120px rgba(234, 88, 12, 0.25)',
@@ -61,7 +61,7 @@ export function AnswerReveal({
         </motion.h2>
 
         <motion.p
-          className="font-sans text-base font-semibold uppercase tracking-[0.5em] text-amber-400"
+          className="font-sans text-xl font-bold uppercase tracking-[0.6em] text-amber-400 sm:text-2xl"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.65, duration: 0.6 }}
@@ -70,7 +70,7 @@ export function AnswerReveal({
         </motion.p>
 
         <motion.p
-          className="font-sans max-w-2xl text-xl leading-relaxed text-stone-100/90 md:text-2xl"
+          className="font-sans max-w-3xl text-2xl leading-relaxed text-stone-100 sm:text-3xl md:text-4xl"
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.7 }}

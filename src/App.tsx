@@ -102,7 +102,7 @@ export default function App() {
       />
 
       {progressLabel && (
-        <p className="fixed bottom-10 left-1/2 z-[100] -translate-x-1/2 font-sans text-xs font-medium uppercase tracking-[0.45em] text-stone-500/90">
+        <p className="fixed bottom-10 left-1/2 z-[100] -translate-x-1/2 font-sans text-sm font-medium uppercase tracking-[0.5em] text-stone-500/90 sm:text-base md:text-lg">
           {progressLabel}
         </p>
       )}
@@ -117,17 +117,17 @@ export default function App() {
                 animate="animate"
                 variants={slideEnterBehind}
               >
-                <p className="mb-4 font-sans text-xs font-semibold uppercase tracking-[0.55em] text-amber-600/90">
+                <p className="mb-6 font-sans text-base font-bold uppercase tracking-[0.6em] text-amber-600 sm:text-lg md:text-xl">
                   Karnataka Ethnicity
                 </p>
-                <h1 className="font-display text-5xl tracking-tight text-amber-50 sm:text-6xl md:text-7xl">
+                <h1 className="font-display text-7xl tracking-tighter text-amber-50 sm:text-8xl md:text-9xl">
                   The Thali Trail
                 </h1>
-                <p className="mt-6 max-w-2xl font-sans text-lg leading-relaxed text-stone-400 md:text-xl">
+                <p className="mt-8 max-w-3xl font-sans text-xl leading-relaxed text-stone-300 md:text-2xl lg:text-3xl">
                   A Journey Through Karnataka&apos;s Ethnic Cuisine
                 </p>
                 <motion.p
-                  className="mt-20 font-sans text-sm uppercase tracking-[0.35em] text-stone-500"
+                  className="mt-28 font-sans text-lg uppercase tracking-[0.45em] text-stone-500 sm:text-xl"
                   animate={{ opacity: [0.45, 1, 0.45] }}
                   transition={{
                     duration: 2.8,
@@ -154,7 +154,7 @@ export default function App() {
                 >
                   {step < 3 && (
                     <>
-                      <p className="mb-10 text-center font-sans text-xs font-semibold uppercase tracking-[0.4em] text-amber-600/85">
+                      <p className="mb-14 text-center font-sans text-lg font-bold uppercase tracking-[0.5em] text-amber-600 sm:text-xl md:text-2xl">
                         {question.teamName}
                       </p>
                       <div className="space-y-10">
@@ -197,15 +197,15 @@ export default function App() {
                 animate="animate"
                 variants={slideEnterBehind}
               >
-                <h2 className="font-display text-4xl text-amber-50 sm:text-5xl">
+                <h2 className="font-display text-6xl tracking-tight text-amber-50 sm:text-7xl md:text-8xl">
                   The trail ends here
                 </h2>
-                <p className="mt-6 font-sans text-lg text-stone-400">
+                <p className="mt-8 font-sans text-xl text-stone-300 md:text-2xl">
                   Thank you for walking Karnataka&apos;s thali—one ember at a
                   time.
                 </p>
                 <motion.p
-                  className="mt-16 font-sans text-sm uppercase tracking-[0.35em] text-stone-500"
+                  className="mt-24 font-sans text-lg uppercase tracking-[0.4em] text-stone-500 sm:text-xl"
                   animate={{ opacity: [0.45, 1, 0.45] }}
                   transition={{
                     duration: 2.8,

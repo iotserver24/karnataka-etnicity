@@ -55,7 +55,7 @@ export function BurnReveal({
   return (
     <div className="relative py-3">
       <div className="mb-2 border-b border-amber-900/40 pb-2">
-        <span className="font-sans text-xs font-semibold uppercase tracking-[0.35em] text-amber-600/90">
+        <span className="font-sans text-base font-bold uppercase tracking-[0.45em] text-amber-600 sm:text-lg">
           Clue
         </span>
       </div>
@@ -76,7 +76,7 @@ export function BurnReveal({
             animate={{ x: 'calc(100vw)' }}
             transition={{ duration: 1.05, ease: 'linear' }}
           />
-          <p className="font-display text-2xl leading-snug text-stone-100 sm:text-3xl md:text-[2rem] md:leading-tight">
+          <p className="font-display text-4xl leading-tight text-stone-100 sm:text-5xl md:text-[3.5rem] md:leading-[1.15]">
             {text}
           </p>
         </motion.div>
