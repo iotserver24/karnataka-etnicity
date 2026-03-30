@@ -11,7 +11,7 @@ export type Question = {
 /** 14 rounds: 7 “Thali Trail” teams + 7 additional themed rounds — clues/answers aligned to host script */
 export const QUESTIONS: Question[] = [
   {
-    teamName: 'Team 1: The Coastal Delicacy',
+    teamName: ' The Coastal Delicacy',
     clues: [
       'I am a thin, lace-like crepe made of rice and coconut milk.',
       'My name is based on a liquid',
@@ -24,7 +24,7 @@ export const QUESTIONS: Question[] = [
     image: '/neer-dosa.webp',
   },
   {
-    teamName: 'Team 2: The Warrior’s Feast',
+    teamName: ' The Warrior’s Feast',
     clues: [
       'I am a spicy, dark pork curry prepared with a unique tart vinegar called Kachampuli.',
       'I am the "Signature Dish" of the coffee-growing hills in South Karnataka.',
@@ -37,7 +37,7 @@ export const QUESTIONS: Question[] = [
     image: '/Pandi-Curry.jpg',
   },
   {
-    teamName: 'Team 3: The Nomadic Spice',
+    teamName: ' The Nomadic Spice',
     clues: [
       'I am a spicy snack made of deep-fried chili, usually sold in the "Tandas" or settlements.',
       'My creators are known for their colorful mirror-work dresses.',
@@ -50,7 +50,7 @@ export const QUESTIONS: Question[] = [
     image: '/mirchi-bajji.jpg',
   },
   {
-    teamName: 'Team 4: The Heart of the Hinterland',
+    teamName: ' The Heart of the Hinterland',
     clues: [
       'I am a dense, steamed ball made from Finger Millet, eaten by swallowing, not chewing.',
       'I am the ultimate "Power Food" for farmers in the Old Mysore region.',
@@ -63,7 +63,7 @@ export const QUESTIONS: Question[] = [
     image: '/ragi-mudde.webp',
   },
   {
-    teamName: 'Team 5: The Marine Fusion',
+    teamName: ' The Marine Fusion',
     clues: [
       'I am a seasonal delicacy made by layering a spicy, tangy rice or gram-flour paste onto large, heart-shaped Colocasia (Taro) leaves.',
       'Once the leaves are coated, they are tightly rolled like a log, steamed, and then either sliced into rounds to be fried or crumbled into a "vunthi" (upma-style).',
@@ -76,7 +76,7 @@ export const QUESTIONS: Question[] = [
     image: '/patrode_recipe.jpg',
   },
   {
-    teamName: 'Team 6: The Sweet Heritage',
+    teamName: ' The Sweet Heritage',
     clues: [
       'I am a hard, fudge-like sweet made from gram flour, ghee, and sugar.',
       'I was first created in the royal kitchens of the Amba Vilas Palace.',
@@ -89,7 +89,7 @@ export const QUESTIONS: Question[] = [
     image: '/istockphoto-2192217521-612x612.jpg',
   },
   {
-    teamName: 'Team 7: The Coastal Crunch',
+    teamName: ' The Coastal Crunch',
     clues: [
       'I am a crispy, dry wafer made from rice, served with a spicy "Kori" (Chicken) gravy.',
       'Eating me involves crushing the wafer into the gravy to soak up the juices.',
@@ -106,7 +106,7 @@ export const QUESTIONS: Question[] = [
     clues: [
       'I am a delicious, deep-fried sweet "puff" or "empanada" filled with a mixture of coconut, jaggery, and cardamom.',
       'I am the star of the Chavath (Ganesh Chaturthi) festival for Konkani families.',
-      'My name is Nevri, and I look like a half-moon.',
+      'I look like a half-moon.',
     ],
     dish: 'Nevri',
     ethnicity: 'Konkani',
@@ -141,7 +141,7 @@ export const QUESTIONS: Question[] = [
     image: '/patoli-011-768x1024.webp',
   },
   {
-    teamName: 'Team 6: The Spicy Grain',
+    teamName: ' The Spicy Grain',
     clues: [
       'I am a spicy rice dish made specifically with a special variety of "small-grain" rice and a lot of vegetables.',
       'My name literally means "Hot Lentil Rice," and I am famous for being served with a dollop of ghee and "Boondi."',
@@ -154,11 +154,11 @@ export const QUESTIONS: Question[] = [
     image: '/bisi-bele-baat.jpg',
   },
   {
-    teamName: 'Team 1: The Giant Fruit (Tuluva Seasonal)',
+    teamName: ' The Giant Fruit (Tuluva Seasonal)',
     clues: [
       'I am a seasonal fruit known for my strong, sweet aroma that can fill an entire house when I am ripe.',
       'My flesh is used to make a special steamed cake called Pelakai Gatti (or Gidde), wrapped in teak or banana leaves.',
-      'In Tulu I am Pelakai—jackfruit in every form from gatti and chips to curries when the season turns.',
+      'In TuluNadu I am in every form from gatti and chips to curries when the season turns.',
     ],
     dish: 'Jackfruit (Pelakai)',
     ethnicity: 'Tuluva',
@@ -167,11 +167,11 @@ export const QUESTIONS: Question[] = [
     image: '/144046950573GRQCt3Yo.jpeg',
   },
   {
-    teamName: 'Team 5: The Spicy-Sour Mackerel',
+    teamName: ' The Spicy-Sour Mackerel',
     clues: [
       'I am a legendary fish curry that uses no coconut, relying entirely on the heat of red chilies and the sourness of tamarind.',
       'My name comes from the Tulu words for "Tamarind" (Puli) and "Chili" (Munchi).',
-      'Bangude mackerel is my classic partner—served fiery red along the Karavali coast.',
+      'Boiled Rice is my classic partner—served fiery red along the Karavali coast.',
     ],
     dish: 'Bangude Pulimunchi',
     ethnicity: 'Mangaluru Tulu / coastal',
@@ -180,7 +180,7 @@ export const QUESTIONS: Question[] = [
     image: '/Bangude-PuliMunchi-03-1024x818.webp',
   },
   {
-    teamName: 'Team 6: The Mangalore "Bun"',
+    teamName: ' The Mangalore "Bun"',
     clues: [
       'I am a sweet, fluffy, deep-fried bread made from a fermented dough of maida and overripe bananas.',
       'I look like a thick puri but I am soft and sweet on the inside, usually served with spicy coconut chutney.',
